@@ -6,7 +6,7 @@ namespace Portfólio.ManipulateFile
     {
         public static void ToSave(string password)
         {
-            StreamWriter streamWriter = new StreamWriter("C:\\PasswordGenerator\\Passwords.txt", true);
+            StreamWriter streamWriter = new StreamWriter("Passwords.txt", true);
             streamWriter.WriteLine($"Senha gerada em: {DateTime.Now}");
             streamWriter.WriteLine("Senha: ");
             streamWriter.WriteLine(password);
